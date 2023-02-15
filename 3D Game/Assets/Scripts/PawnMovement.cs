@@ -7,7 +7,7 @@ public class PawnMovement : MonoBehaviour
     [SerializeField] GameObject[] waypoints;
     int currentWaypointIndex = 0;
 
-    [SerializeField] float speed = 1f;
+    [SerializeField] float speed = 10f;
 
     void Update()
     {
