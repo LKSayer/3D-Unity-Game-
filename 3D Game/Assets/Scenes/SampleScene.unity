@@ -151,6 +151,19 @@ MonoBehaviour:
   - {fileID: 1952976873}
   - {fileID: 925104307}
   speed: 10
+--- !u!65 &21560894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21560889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.029786097, y: 0.029786102, z: 0.057704393}
+  m_Center: {x: -0.0000000018626451, y: 9.313227e-10, z: 0.028852133}
 --- !u!1 &28795594
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.z
@@ -483,6 +496,7 @@ Transform:
   - {fileID: 1940133825}
   - {fileID: 197141371}
   - {fileID: 1589041463}
+  - {fileID: 754902527}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -698,7 +712,7 @@ MonoBehaviour:
   - {fileID: 224874382}
   - {fileID: 1494245071}
   - {fileID: 1494245071}
-  speed: 10
+  speed: 30
 --- !u!1001 &368653329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -828,6 +842,19 @@ MonoBehaviour:
   - {fileID: 925104307}
   - {fileID: 1684433611}
   speed: 10
+--- !u!65 &471463742
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471463737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.029786097, y: 0.029786102, z: 0.057704393}
+  m_Center: {x: 0, y: 9.313227e-10, z: 0.028852131}
 --- !u!4 &485364612 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
@@ -916,6 +943,10 @@ PrefabInstance:
     - target: {fileID: 1000014291839912, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
       propertyPath: m_Name
       value: Bishop 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014291839912, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
+      propertyPath: m_TagString
+      value: 'Enemy '
       objectReference: {fileID: 0}
     - target: {fileID: 4000010786065248, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
       propertyPath: m_RootOrder
@@ -1391,6 +1422,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
   m_PrefabInstance: {fileID: 2129821245}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &754902526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754902527}
+  m_Layer: 0
+  m_Name: Rook Floor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754902527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754902526}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.8997587, y: 3.4980812, z: 171.66599}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 125474012}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &815769150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
@@ -1502,6 +1564,19 @@ MonoBehaviour:
   - {fileID: 151580225}
   - {fileID: 1952976873}
   speed: 10
+--- !u!65 &904638147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904638142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.029786099, y: 0.029786112, z: 0.057704404}
+  m_Center: {x: 9.639842e-10, y: -6.25075e-10, z: 0.028852139}
 --- !u!1 &925104307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,7 +1720,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.79999995, y: 2.4, z: 117.4}
+  m_LocalPosition: {x: -0.79999995, y: 2.4, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1828,6 +1903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bishop 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014291839912, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
+      propertyPath: m_TagString
+      value: 'Enemy '
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010786065248, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1977,7 +2056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2013,7 +2092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228747, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_Name
-      value: Bishop Floor 2 (1)
+      value: Bishop Floor 7
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228747, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2036,6 +2115,10 @@ PrefabInstance:
     - target: {fileID: 1000014291839912, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
       propertyPath: m_Name
       value: Bishop 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014291839912, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
+      propertyPath: m_TagString
+      value: 'Enemy '
       objectReference: {fileID: 0}
     - target: {fileID: 4000010786065248, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
       propertyPath: m_RootOrder
@@ -2453,7 +2536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678832558}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.79999995, y: 2.4, z: 117.4}
+  m_LocalPosition: {x: -0.79999995, y: 2.4, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2553,7 +2636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.9411
+      value: -26.6
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2561,7 +2644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28.9411
+      value: 29.2
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2826,7 +2909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3079,6 +3162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bishop 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014291839912, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
+      propertyPath: m_TagString
+      value: 'Enemy '
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010786065248, guid: e2e9e589ac51bdb48bcae102d4799914, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3307,7 +3394,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029856956}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8, y: 2.4, z: 127.4}
+  m_LocalPosition: {x: -1.8, y: 2.4, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3459,6 +3546,19 @@ MonoBehaviour:
   - {fileID: 1684433611}
   - {fileID: 151580225}
   speed: 10
+--- !u!65 &2069832873
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069832868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.029786099, y: 0.029786112, z: 0.057704404}
+  m_Center: {x: 9.639842e-10, y: -6.25075e-10, z: 0.028852139}
 --- !u!1001 &2129821245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3488,7 +3588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6725379855321228343, guid: 05b2c8827a242584e8e3cd913b9f3163, type: 3}
       propertyPath: m_LocalPosition.z
