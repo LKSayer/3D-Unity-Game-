@@ -6,11 +6,12 @@ TagManager:
   tags:
   - 'Player  '
   - 'Enemy '
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - WhatIsPlayer
   - Water
   - UI
   - 
