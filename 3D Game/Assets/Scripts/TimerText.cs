@@ -6,7 +6,7 @@ using System;
 
 public class TimerText : MonoBehaviour
 {
-    [SerializeField] Text Timer;
+    [SerializeField] Text timerText;
     private float startTime;
     void Start()
     {
@@ -20,7 +20,7 @@ public class TimerText : MonoBehaviour
         string minutes = ((int) t / 60 ).ToString();
         string seconds = (t % 60).ToString("f2");
 
-        Timer.text = minutes + ":" + seconds;
+        timerText.text = minutes + ":" + seconds;
     }
     
 }
