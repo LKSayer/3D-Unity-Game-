@@ -60,7 +60,14 @@ public class movement : MonoBehaviour
         {
           SceneManager.LoadScene(SceneManager.GetActiveScene().name);      
         }
+
+        if (collision.gameObject.CompareTag("King"))
+        {
+          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);      
+        }
     }
+
+    
 
     Rigidbody rb;
     [SerializeField] float movementSpeed = 6f;
